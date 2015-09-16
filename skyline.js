@@ -38,9 +38,13 @@ function setup() {
   label.id("linkLabel");
   label.style("font:18px arial; color:rgb(255,255,255); cursor(e-resize)"); 
 
-  var title = createHTML("Which building is which?");
-  title.position(390, 20);
+  var title = createHTML("Manhattan Skyline from Brooklyn Bridge Park");
+  title.position(250, 20);
   title.style("font:24px arial; color:rgb(255,255,255); letter-spacing:2px"); 
+  
+  var directions = createHTML("Mouse over buildings to find out which is which. Click on the buildings to learn more about them.");
+  title.position(250, 35);
+  title.style("font:18px arial; color:rgb(255,255,255); letter-spacing:2px"); 
 
   var inquire = createHTML('<a id="inquiries" href="mailto:as4092@nyu.edu">inquiries</a>')
    inquire.position(975, 370);
